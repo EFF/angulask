@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "@EFF & @osylvain",
   "license": "MIT",
+  "scripts" :{
+    "postinstall" : "./node_modules/.bin/gulp build"
+  },
   "dependencies": {
     "angular": "^1.2.19",
     "browserify": "^4.2.3",
